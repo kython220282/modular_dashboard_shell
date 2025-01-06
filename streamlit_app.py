@@ -9,11 +9,11 @@ def main():
       with st.container(border=True):
         uploaded_file = st.file_uploader("Choose a file")
         if uploaded_file is not None:
-          dataframe = pd.read_csv(uploaded_file)
-          st.write(dataframe)
+          df = pd.read_csv(uploaded_file)
     with col2:
       with st.container(border=True):
         st.write("Review Data uploaded")
+        edited_df = st.data_editor(df)
   with tab2:
     st.subheader("Overall Performance")
   with tab3:
