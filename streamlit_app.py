@@ -1,7 +1,4 @@
 import streamlit as st
-
-st.title('🎈 App Name')
-
-st.write('Hello world!')
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Modular Dashboard", page_icon = ":chart:",layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.title('Application Name')
 st.write('--------')
