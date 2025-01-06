@@ -6,14 +6,13 @@ st.title('<Business Name> Performance Dashboard')
 def main():
   tab1, tab2, tab3, tab4 = st.tabs(["Upload Data","Overall Performance","Metrics 1","Metrics 2"])
   with tab1:
-    st.subheader("Upload Data")
+    st.write("Upload Data")
   with tab2:
-    st.subheader("Overall Performance")
+    st.write("Overall Performance")
   with tab3:
-    st.subheader("Performance on <Metrics 1>")
+    st.write("Performance on <Metrics 1>")
   with tab4:
-    st.subheader("Performance on <Metrics 2>")
-
+    st.write("Performance on <Metrics 2>")
 
 if __name__ == "__main__":
     main()
