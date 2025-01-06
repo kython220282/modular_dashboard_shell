@@ -6,13 +6,13 @@ def main():
   with tab1:
     col1, col2 = st.columns([2,4])
     with col1:
-      with st.container():
+      with st.container(border=True):
         uploaded_file = st.file_uploader("Choose a file")
         if uploaded_file is not None:
           dataframe = pd.read_csv(uploaded_file)
           st.write(dataframe)
     with col2:
-      with st.container():
+      with st.container(border=True):
         st.write("Review Data uploaded")
   with tab2:
     st.subheader("Overall Performance")
