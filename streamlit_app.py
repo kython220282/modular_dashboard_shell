@@ -4,7 +4,7 @@ st.title('<Business Name> Performance Dashboard')
 def main():
   tab1, tab2, tab3, tab4 = st.tabs(["Upload Data","Overall Performance","Metrics 1","Metrics 2"])
   with tab1:
-    col1, col2 = st.columns([1,3])
+    col1, col2 = st.columns([2,2])
     with col1:
       with st.container():
         uploaded_file = st.file_uploader("Choose a file")
