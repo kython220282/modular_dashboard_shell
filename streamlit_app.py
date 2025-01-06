@@ -12,7 +12,7 @@ def main():
           df = pd.read_csv(uploaded_file)
     with col2:
       with st.container(border=True):
-        st.write("Review Data uploaded")
+        st.write("Review Data Uploaded:")
         if uploaded_file is not None:
          edited_df = st.data_editor(df)
   with tab2:
