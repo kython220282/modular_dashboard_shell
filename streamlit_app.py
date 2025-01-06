@@ -12,5 +12,9 @@ def main():
 
   with tab2:
     st.header("Performance on <Metrics 2>")
+
+
+if __name__ == "__main__":
+    main()
     
   
