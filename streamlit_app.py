@@ -13,7 +13,7 @@ def main():
           st.write(dataframe)
     with col2:
       with st.container():
-        st.subheader("Review Data uploaded")
+        st.write("Review Data uploaded")
   with tab2:
     st.subheader("Overall Performance")
   with tab3:
